@@ -4,83 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Docica Vida | Cookies com carinho em Tatuí</title>
-  <meta name="description" content="Unindo proposito e amor em forma de cookies. Feitos pela Amanda, em Tatuí-SP. Entrega ou retirada. Pedidos pelo Instagram @docicavida.">
-  <link rel="icon" type="image/png" href="img/logo.png">
+  <meta name="description" content="Unindo propósito e amor em forma de cookies. Feitos pela Amanda, em Tatuí-SP. Entrega ou retirada. Pedidos pelo Instagram @docicavida.">
+  <meta name="theme-color" content="#f4ede4">
+  <meta property="og:title" content="Docica Vida | Cookies com carinho em Tatuí">
+  <meta property="og:description" content="Unindo propósito e amor em forma de cookies. Feitos pela Amanda, em Tatuí-SP. Entrega ou retirada. Pedidos pelo Instagram @docicavida.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="img/logo.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Logo da Docica Vida">
+  <link rel="icon" type="image/png" href="img/logo.png?v=6">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Nunito:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=52">
 </head>
 <body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <div class="blob blob-a" aria-hidden="true"></div>
   <div class="blob blob-b" aria-hidden="true"></div>
-  <div id="ant" class="ant" aria-hidden="true"></div>
+  <div class="cookie-dust" id="cookieDust" aria-hidden="true"></div>
+  <div class="ant-walker" id="antWalker" aria-hidden="true">
+    <img id="antSprite" src="img/formiga-crop/frame_0000.png" alt="">
+  </div>
 
   <header class="header" id="header">
     <div class="container header-inner">
       <a href="#inicio" class="logo">
-        <img src="img/logo.png" alt="docica vida">
+        <img src="img/logo.png?v=6" alt="Docica Vida" width="84" height="44">
       </a>
-      <nav class="nav" id="nav">
+      <nav class="nav" id="nav" aria-label="Principal">
         <a href="#sabores">Sabores</a>
+        <a href="#criacoes">Criações</a>
+        <a href="#buques">Buquês</a>
         <a href="#historia">A Amanda</a>
         <a href="#como-pedir">Como pedir</a>
         <a href="#galeria">Fotos</a>
         <a href="#contato">Pedido</a>
       </nav>
-      <a class="btn btn-nav" href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener">pedir um cookie</a>
-      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">
+      <a class="btn btn-nav" href="https://wa.me/5515996879744?text=Oi%2C%20Amanda!%20Vim%20pelo%20site%20e%20quero%20pedir%20um%20cookie" target="_blank" rel="noopener noreferrer">pedir um cookie</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-controls="nav" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section class="hero" id="inicio">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="pill">feitos com carinho em Tatuí</p>
-          <p class="hello">oi, eu sou a Amanda</p>
-          <h1>Cookies fofos, quentinhos e cheios de amor.</h1>
-          <p class="hero-lead">Unindo proposito e amor em forma de cookie. Cada um sai da minha cozinha com o carinho que eu gostaria de encontrar quando compro um doce.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener">pedir no instagram</a>
-            <a class="btn btn-soft" href="#sabores">ver os sabores</a>
+      <h1 class="sr-only">Docica Vida, cookies artesanais em Tatuí</h1>
+      <div class="strip" aria-hidden="true">
+        <div class="strip-track">
+          <div class="strip-group">
+            <span>cookie recheado</span><span class="heart">♡</span>
+            <span>chocolate quente</span><span class="heart">♡</span>
+            <span>Nutella</span><span class="heart">♡</span>
+            <span>feito com carinho</span><span class="heart">♡</span>
+            <span>Tatuí-SP</span><span class="heart">♡</span>
           </div>
-          <div class="hero-little">
-            <span>entrega ou retirada</span>
-            <span class="heart">♡</span>
-            <span>Tatuí-SP</span>
-            <span class="heart">♡</span>
-            <span>+3,5 mil seguidores</span>
-          </div>
-        </div>
-        <div class="hero-photos">
-          <figure class="shot main-shot">
-            <img src="whatsapp_005724_1.jpg" alt="Cookie recheado partido na mao">
-          </figure>
-          <figure class="shot mini-shot">
-            <img src="whatsapp_012228_1.jpg" alt="Cookie de Nutella escorrendo">
-          </figure>
-          <span class="sticker">♡ cookie de verdade</span>
         </div>
       </div>
-    </section>
 
-    <section class="strip">
-      <div class="strip-track">
-        <span>cookie recheado</span><span class="heart">♡</span>
-        <span>pistache</span><span class="heart">♡</span>
-        <span>nutella</span><span class="heart">♡</span>
-        <span>buque de cookies</span><span class="heart">♡</span>
-        <span>feito com carinho</span><span class="heart">♡</span>
-        <span>Tatuí-SP</span><span class="heart">♡</span>
-        <span>cookie recheado</span><span class="heart">♡</span>
-        <span>pistache</span><span class="heart">♡</span>
-        <span>nutella</span><span class="heart">♡</span>
-        <span>buque de cookies</span><span class="heart">♡</span>
-        <span>feito com carinho</span><span class="heart">♡</span>
-        <span>Tatuí-SP</span><span class="heart">♡</span>
+      <div class="hero-photos">
+        <figure class="shot main-shot">
+          <img src="img/amanda1.jpg" alt="Amanda, dona da Docica Vida" width="720" height="960">
+        </figure>
+        <figure class="shot mini-shot">
+          <img src="img/amanda2.jpg" alt="Amanda com cookies da Docica Vida" width="720" height="959">
+        </figure>
+      </div>
+
+      <div class="strip" aria-hidden="true">
+        <div class="strip-track reverse">
+          <div class="strip-group">
+            <span>entrega ou retirada</span><span class="heart">♡</span>
+            <span>Tatuí-SP</span><span class="heart">♡</span>
+            <span>cookies artesanais</span><span class="heart">♡</span>
+            <span>feito com carinho</span><span class="heart">♡</span>
+            <span>@docicavida</span><span class="heart">♡</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -88,87 +90,200 @@
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">os queridinhos</p>
-          <h2>Sabores que derretem o coracaozinho</h2>
-          <p>Massa macia, recheio generoso e aquele cheirinho de recem-assado. Sem fabrica, so a minha cozinha.</p>
+          <h2>Sabores que derretem o coraçãozinho</h2>
+          <p>Massa macia, recheio generoso e aquele cheirinho de recém-assado. Sem fábrica, só a minha cozinha.</p>
         </div>
         <div class="grid-sabores">
-          <article class="card-sabor">
-            <div class="card-sabor-img">
-              <img src="whatsapp_005724_2.jpg" alt="Cookie tradicional recheado">
+          <a class="card-sabor" href="https://wa.me/5515996879744?text=Oi%2C%20Amanda!%20Vim%20pelo%20site%20e%20quero%20pedir%20o%20Cookie%20de%20Kinder%20Bueno%20com%20Nutella" target="_blank" rel="noopener noreferrer">
+            <div class="card-sabor-img carousel" data-interval="5200">
+              <img src="img/kinder1.jpg?v=4" alt="Cookie de Kinder Bueno com Nutella" class="active" width="843" height="1264">
+              <img src="img/kinder2.jpg?v=4" alt="" width="843" height="1264" loading="lazy">
             </div>
             <div class="card-sabor-body">
-              <h3>Tradicional</h3>
-              <p>Massa amanteigada, gotas e recheio cremoso. O classico fofo que nunca falha.</p>
+              <h3>Cookie de Kinder Bueno com Nutella</h3>
+              <p class="preco"><span class="preco-now">R$ 17,00</span> <s>R$ 19,00</s></p>
             </div>
-          </article>
-          <article class="card-sabor">
-            <div class="card-sabor-img">
-              <img src="whatsapp_012228_1.jpg" alt="Cookie de Nutella">
-            </div>
-            <div class="card-sabor-body">
-              <h3>Nutella</h3>
-              <p>Recheio cremoso de avela escorrendo. Quando voce jura que vai parar... eu posto stories.</p>
-            </div>
-          </article>
-          <article class="card-sabor">
-            <div class="card-sabor-img">
-              <img src="whatsapp_011619_1.jpg" alt="Cookie de chocolate">
+          </a>
+          <a class="card-sabor" href="https://wa.me/5515996879744?text=Oi%2C%20Amanda!%20Vim%20pelo%20site%20e%20quero%20pedir%20o%20Cookie%20de%20Nutella" target="_blank" rel="noopener noreferrer">
+            <div class="card-sabor-img carousel" data-interval="6100">
+              <img src="img/nutella1.jpg?v=4" alt="Cookie de Nutella" class="active" width="843" height="1264">
+              <img src="img/nutella2.jpg?v=4" alt="" width="843" height="1264" loading="lazy">
+              <img src="img/nutella3.jpg?v=4" alt="" width="843" height="1264" loading="lazy">
             </div>
             <div class="card-sabor-body">
-              <h3>Chocolate</h3>
-              <p>Para quem ama chocolate de verdade. Massa fudgy e recheio que escorre.</p>
+              <h3>Cookie de Nutella</h3>
+              <p class="preco"><span class="preco-now">R$ 15,00</span> <s>R$ 17,00</s></p>
             </div>
-          </article>
-          <article class="card-sabor">
-            <div class="card-sabor-img">
-              <img src="whatsapp_010340_1.jpg" alt="Cookie de pistache">
-            </div>
-            <div class="card-sabor-body">
-              <h3>Pistache</h3>
-              <p>Recheio verdinho, cremoso e com pedacinhos de pistache. O queridinho do momento.</p>
-            </div>
-          </article>
-          <article class="card-sabor featured">
-            <div class="card-sabor-img">
-              <img src="3912033239157733023.jpg" alt="Buque de cookies Docica Vida">
+          </a>
+          <a class="card-sabor" href="https://wa.me/5515996879744?text=Oi%2C%20Amanda!%20Vim%20pelo%20site%20e%20quero%20pedir%20o%20Cookie%20de%20Pistache" target="_blank" rel="noopener noreferrer">
+            <div class="card-sabor-img carousel" data-interval="5600">
+              <img src="img/pistache1.jpg" alt="Cookie de Pistache" class="active" width="843" height="1264">
+              <img src="img/pistache2.jpg?v=4" alt="" width="843" height="1264" loading="lazy">
+              <img src="img/pistache3.jpg?v=4" alt="" width="1264" height="843" loading="lazy">
             </div>
             <div class="card-sabor-body">
-              <p class="tag">encomenda ♡</p>
-              <h3>Buque de cookies</h3>
-              <p>Cookies + fotinhos, embrulhado com carinho. Perfeito pra presentear. Confirma prazo no insta.</p>
+              <h3>Cookie de Pistache</h3>
+              <p class="preco"><span class="preco-now">R$ 18,00</span> <s>R$ 20,00</s></p>
             </div>
-          </article>
-          <article class="card-sabor">
-            <div class="card-sabor-img">
-              <img src="whatsapp_011127_1.jpg" alt="Cookie recheado de ninho e chocolate">
+          </a>
+          <a class="card-sabor" href="https://wa.me/5515996879744?text=Oi%2C%20Amanda!%20Vim%20pelo%20site%20e%20quero%20pedir%20o%20Cookie%20de%20Ninho%20com%20Nutella" target="_blank" rel="noopener noreferrer">
+            <div class="card-sabor-img carousel" data-interval="6400">
+              <img src="img/ninho1.jpg?v=4" alt="Cookie de Ninho com Nutella" class="active" width="843" height="1264">
+              <img src="img/ninho2.jpg?v=4" alt="" width="723" height="1083" loading="lazy">
             </div>
             <div class="card-sabor-body">
-              <h3>Recheados</h3>
-              <p>Por fora sequinho, por dentro um beijo de recheio. Isso e cookie de verdade.</p>
+              <h3>Cookie de Ninho com Nutella</h3>
+              <p class="preco"><span class="preco-now">R$ 17,00</span> <s>R$ 19,00</s></p>
             </div>
-          </article>
+          </a>
+          <a class="card-sabor" href="https://wa.me/5515996879744?text=Oi%2C%20Amanda!%20Vim%20pelo%20site%20e%20quero%20pedir%20o%20Cookie%20de%20Ovomaltine" target="_blank" rel="noopener noreferrer">
+            <div class="card-sabor-img carousel" data-interval="5800">
+              <img src="img/ovomaltine1.jpg?v=4" alt="Cookie de Ovomaltine" class="active" width="843" height="1264">
+              <img src="img/ovomaltine2.jpg?v=4" alt="" width="843" height="1264" loading="lazy">
+            </div>
+            <div class="card-sabor-body">
+              <h3>Cookie de Ovomaltine</h3>
+              <p class="preco"><span class="preco-now">R$ 17,00</span> <s>R$ 18,00</s></p>
+            </div>
+          </a>
+          <a class="card-sabor" href="https://wa.me/5515996879744?text=Oi%2C%20Amanda!%20Vim%20pelo%20site%20e%20quero%20pedir%20o%20Cookie%20de%20Red%20Velvet" target="_blank" rel="noopener noreferrer">
+            <div class="card-sabor-img carousel" data-interval="6700">
+              <img src="img/redvelvet1.jpg?v=4" alt="Cookie de Red Velvet" class="active" width="843" height="1264">
+              <img src="img/redvelvet2.jpg?v=4" alt="" width="843" height="1264" loading="lazy">
+            </div>
+            <div class="card-sabor-body">
+              <h3>Cookie de Red Velvet</h3>
+              <p class="preco"><span class="preco-now">R$ 17,00</span> <s>R$ 18,00</s></p>
+            </div>
+          </a>
         </div>
-        <p class="note">os sabores mudam conforme o dia. confirma no instagram, ta bem?</p>
+      </div>
+    </section>
+
+    <section class="mordida">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">a primeira mordida</p>
+          <h2>Aquele momento de cookie quentinho</h2>
+        </div>
+        <div class="mordida-pair">
+          <figure>
+            <img src="img/amanda-bite.jpg" alt="Amanda na primeira mordida do cookie de Nutella" width="843" height="1264" loading="lazy">
+          </figure>
+          <figure>
+            <img src="img/amanda-red.jpg" alt="Amanda na primeira mordida do cookie de Red Velvet" width="712" height="1264" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="criacoes" id="criacoes">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">além dos cookies</p>
+          <h2>Criações da Docica Vida</h2>
+          <p>Ovos recheados e outras docicas da mesma cozinha. Sob encomenda, no ritmo da Amanda.</p>
+        </div>
+        <div class="lookbook">
+          <figure class="look">
+            <img src="img/extra-ferrero.jpg" alt="Ovo recheado Ferrero Rocher" width="848" height="848" loading="lazy">
+            <figcaption>
+              <span>Ferrero Rocher</span>
+              <small>ovo recheado</small>
+            </figcaption>
+          </figure>
+          <figure class="look">
+            <img src="img/extra-oreo.jpg" alt="Ovo recheado Oreo" width="843" height="843" loading="lazy">
+            <figcaption>
+              <span>Oreo</span>
+              <small>ovo recheado</small>
+            </figcaption>
+          </figure>
+          <figure class="look">
+            <img src="img/extra-buenotella.jpg" alt="Ovo recheado Buenotella" width="843" height="843" loading="lazy">
+            <figcaption>
+              <span>Buenotella</span>
+              <small>ovo recheado</small>
+            </figcaption>
+          </figure>
+          <figure class="look">
+            <img src="img/extra-pistache.jpg" alt="Ovo recheado de pistache" width="843" height="843" loading="lazy">
+            <figcaption>
+              <span>Pistache</span>
+              <small>ovo recheado</small>
+            </figcaption>
+          </figure>
+          <figure class="look">
+            <img src="img/extra-redvelvet.jpg" alt="Ovo recheado Red Velvet" width="843" height="843" loading="lazy">
+            <figcaption>
+              <span>Red Velvet</span>
+              <small>ovo recheado</small>
+            </figcaption>
+          </figure>
+          <figure class="look">
+            <img src="img/extra-ninhotella.jpg" alt="Ovo recheado Ninhotella" width="843" height="843" loading="lazy">
+            <figcaption>
+              <span>Ninhotella</span>
+              <small>ovo recheado</small>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="note">A disponibilidade muda. Peça pelo Instagram @docicavida.</p>
+      </div>
+    </section>
+
+    <section class="buques" id="buques">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">pra presentear</p>
+          <h2>Buquês de cookies</h2>
+          <p>Um cookie sozinho ou um buquê inteiro, com foto e fita. Sob encomenda.</p>
+        </div>
+        <div class="buque-vitrine">
+          <figure class="buque-shot buque-shot-grande">
+            <img src="img/buque-grande.jpg?v=4" alt="Buquê grande de cookies" width="1051" height="1400" loading="lazy">
+            <figcaption>
+              <small>com fotos e laço</small>
+              <span>Buquê Grande</span>
+              <em>R$ 139,90</em>
+              <i>com prazo para encomendas</i>
+            </figcaption>
+          </figure>
+          <figure class="buque-shot buque-shot-mini">
+            <img src="img/buque-mini.jpg?v=4" alt="Buquê mini de cookie" width="894" height="1400" loading="lazy">
+            <figcaption>
+              <small>um miminho</small>
+              <span>Buquê Mini</span>
+              <em>R$ 24,90</em>
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
     <section class="historia" id="historia">
-      <div class="container historia-grid">
-        <div class="historia-card">
-          <p class="hello mini">prazer, sou a Amanda</p>
-          <div class="historia-photo">
-            <img src="3955841131393453080_3955840808959376039.jpg" alt="Amanda da Docica Vida com cookies de pistache">
-          </div>
-          <p class="historia-caption">da minha cozinha, com muito carinho ♡</p>
+      <div class="container">
+        <p class="hello mini">prazer, sou a Amanda</p>
+        <div class="historia-photos">
+          <figure>
+            <img src="img/amanda3.jpg?v=2" alt="Amanda, dona da Docica Vida" width="460" height="511" loading="lazy">
+          </figure>
+          <figure>
+            <img src="img/amanda4.jpg" alt="Amanda sorrindo" width="487" height="545" loading="lazy">
+          </figure>
+          <figure>
+            <img src="img/amanda5.jpg" alt="Amanda com os cookies" width="499" height="511" loading="lazy">
+          </figure>
         </div>
+        <p class="historia-caption">da minha cozinha, com muito carinho ♡</p>
         <div class="historia-text">
-          <p class="eyebrow">a menina por tras dos cookies</p>
-          <h2>Tudo comecou com um sonho.</h2>
-          <p>Oi, pessoal. Acho que ja estava na hora de me apresentar por aqui.</p>
-          <p>Eu sou a Amanda, a pessoa por tras de cada cookie que sai da Docica Vida. Tudo comecou com um sonho ate que se tornou um negocio de verdade.</p>
-          <p>Hoje, cada receita e preparada com muito cuidado, ingredientes de qualidade e aquele carinho que eu gostaria de encontrar quando compro algo.</p>
-          <p>Obrigada por fazer parte dessa historia. Que esse seja so o comeco de muitos cookies e muitos momentos especiais.</p>
-          <p class="assinatura">seja muito bem-vindo(a) a Docica Vida</p>
+          <p class="eyebrow">a menina por trás dos cookies</p>
+          <h2>Tudo começou com um propósito.</h2>
+          <p>Oi, pessoal. Acho que já estava na hora de me apresentar por aqui.</p>
+          <p>Eu sou a Amanda, a pessoa por trás de cada cookie que sai da Docica Vida. Tudo começou com um propósito e, aos poucos, se transformou em um negócio de verdade.</p>
+          <p>Hoje, cada cookie, doce e receita é preparado com muito cuidado, ingredientes de qualidade e aquele carinho que eu gostaria de encontrar quando compro algo.</p>
+          <p>Obrigada por fazer parte dessa história. Que este seja apenas o começo de muitos cookies, momentos especiais e da realização de um propósito.</p>
+          <p class="assinatura">seja muito bem-vindo(a) à Docica Vida</p>
         </div>
       </div>
     </section>
@@ -183,17 +298,17 @@
           <li>
             <span class="num">1</span>
             <h3>escolhe o sabor</h3>
-            <p>olha o cardapio do dia nos stories e no feed @docicavida</p>
+            <p>Confira o cardápio do dia nos Stories e no feed do Instagram @docicavida.</p>
           </li>
           <li>
             <span class="num">2</span>
             <h3>manda um oi</h3>
-            <p>pedido pelo instagram, rapido e com aquele atendimento fofo</p>
+            <p>Faça seu pedido pelo Instagram. É rápido e você recebe aquele atendimento cheio de carinho.</p>
           </li>
           <li>
             <span class="num">3</span>
             <h3>entrega ou retirada</h3>
-            <p>em Tatuí-SP. eu levo ate voce ou voce busca quentinho</p>
+            <p>Em Tatuí-SP. Eu levo até você ou você busca quentinho.</p>
           </li>
         </ol>
       </div>
@@ -203,17 +318,13 @@
       <div class="container">
         <div class="section-head center">
           <p class="eyebrow">um pedacinho do feed</p>
-          <h2>Uma paixao em forma de cookie</h2>
+          <h2>Uma paixão em forma de cookie</h2>
         </div>
         <div class="feed">
-          <figure><img src="whatsapp_005724_1.jpg" alt="Cookie partido na mao"></figure>
-          <figure><img src="whatsapp_010340_2.jpg" alt="Cookie de pistache aberto"></figure>
-          <figure><img src="whatsapp_011619_1.jpg" alt="Cookie de chocolate"></figure>
-          <figure><img src="3808619830132677569.jpg" alt="Cookies recheados na caixinha"></figure>
-          <figure><img src="3808620867300186639.jpg" alt="Cookie na caixinha com palha"></figure>
-          <figure><img src="3912033239157733023.jpg" alt="Buque de cookies"></figure>
-          <figure><img src="imagem_1791613819908_1.jpg" alt="Amanda"></figure>
-          <figure><img src="whatsapp_012228_1.jpg" alt="Nutella escorrendo"></figure>
+          <a href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener noreferrer"><img src="img/cookie8.jpg?v=4" alt="Cookies recheados na caixinha" width="750" height="1000" loading="lazy"></a>
+          <a href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener noreferrer"><img src="img/cookie9.jpg?v=4" alt="Cookie na caixinha" width="784" height="1000" loading="lazy"></a>
+          <a href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener noreferrer"><img src="img/cookie10.jpg?v=4" alt="Cookie de Red Velvet na caixinha" width="750" height="1000" loading="lazy"></a>
+          <a href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener noreferrer"><img src="img/cookie11.jpg?v=4" alt="Cookie de Red Velvet" width="750" height="1000" loading="lazy"></a>
         </div>
       </div>
     </section>
@@ -224,12 +335,15 @@
           <p class="eyebrow">recadinhos</p>
           <h2>Carinho que volta em mensagem</h2>
         </div>
-        <div class="grid-prints">
-          <figure>
-            <img src="image.png" alt="Print: Deus abencoe, estava uma delicia">
+        <div class="grid-depo">
+          <figure class="print">
+            <img src="img/feedback1.jpg?v=3" alt="Mensagem de cliente: amiga, todo mundo gostou, muito muito bom" width="944" height="692" loading="lazy">
           </figure>
-          <figure>
-            <img src="3797109657199304423.jpg" alt="Print: amiga todo mundo gostou">
+          <figure class="print">
+            <img src="img/feedback2.jpg?v=3" alt="Mensagem de cliente: que sabor, top demais, comeria mais" width="990" height="895" loading="lazy">
+          </figure>
+          <figure class="print print-full">
+            <img src="img/feedback3.jpg?v=3" alt="Mensagem de cliente: estava uma delícia, massinha viciante" width="490" height="514" loading="lazy">
           </figure>
         </div>
       </div>
@@ -239,9 +353,10 @@
       <div class="container">
         <div class="cta-box">
           <p class="hello">vem pro lado doce da vida</p>
-          <h2>Pronto pra um cookie fofo?</h2>
-          <p>entrega ou retirada em Tatuí. manda um oi no instagram e recebe com o meu carinho.</p>
-          <a class="btn btn-primary" href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener">@docicavida</a>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener noreferrer">@docicavida</a>
+            <a class="btn btn-whats" href="https://wa.me/5515996879744?text=Oi%2C%20Amanda!%20Vim%20pelo%20site%20e%20quero%20pedir%20um%20cookie" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          </div>
         </div>
       </div>
     </section>
@@ -250,18 +365,18 @@
   <footer class="footer">
     <div class="container footer-inner">
       <div>
-        <img class="footer-logo" src="img/logo.png" alt="docica vida">
-        <p>unindo proposito e amor em forma de cookies.</p>
+        <img class="footer-logo" src="img/logo.png?v=6" alt="Docica Vida" width="137" height="72">
+        <p>Unindo propósito e amor em forma de cookies.</p>
       </div>
       <div class="footer-meta">
-        <p>Tatuí - SP</p>
+        <p>Tatuí-SP</p>
         <p>entrega ou retirada</p>
-        <a href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener">instagram @docicavida</a>
+        <a href="https://www.instagram.com/docicavida/" target="_blank" rel="noopener noreferrer">Instagram @docicavida</a>
       </div>
       <p class="copy">feito com carinho pela Amanda, em Tatuí ♡</p>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=31"></script>
 </body>
 </html>
